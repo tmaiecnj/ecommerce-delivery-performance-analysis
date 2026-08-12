@@ -32,7 +32,7 @@ Analyze order, delivery, payment and review data to identify what drives custome
 
 _A relational database connecting customers, orders, products, sellers, payments, and reviews for analyzing sales, delivery performance, and customer satisfaction._
 
-![ERD E-Commerce Database Schema](images\erd.png)
+![ERD E-Commerce Database Schema](./images/erd.png)
 
 ## Key Findings:
 
