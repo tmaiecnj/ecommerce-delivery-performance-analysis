@@ -24,20 +24,38 @@ Analyze order, delivery, payment and review data to identify what drives custome
 
 ## Dataset:
 
-- **Source:** Kaggle - Brazilian E-Commerce Public Dataset by Olist
+- **Source:** [Kaggle - Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
 - **Size:** ~100,000 orders, 2016-2018
 - **Tables:** 9 (customers, orders, order payments, order reviews, products, product category translation, sellers, order items, geolocation)
+- **_Note:_** _2016 (4 months) and 2018 (10 months) are partial years - see [Data Profiling](./DATA_PROFILING.md)_
 
-### Database Schema
+## Database Schema
 
 _A relational database connecting customers, orders, products, sellers, payments, and reviews for analyzing sales, delivery performance, and customer satisfaction._
 
 ![ERD E-Commerce Database Schema](./images/erd.png)
 
-## Key Findings:
+## Data Profiling & Cleaning
 
-## Recommendation:
+Seven data quality checks were performed during import and profiling, each analyze the root cause:
 
-## Repository Structure:
+1.
+2.
+3.
+4.
+5.
+6.
+7.
 
-## About this Project:
+Documented in: [Data Profiling](./DATA_PROFILING.md)
+
+## Business Questions Answered
+
+- What is Olist's total revenue, order volume and average order value?
+- How do customers prefer to pay, and does payment method affect order value?
+- What does the review score distribution look like?
+- Which product categories generate the most revenue?
+- Does late delivery correlate with lower review scores?
+- Are high-revenue categories also highly-rated?
+- Which sellers drive the most business?
+- Which states generate the most revenue and experience the slowest deliveries?
