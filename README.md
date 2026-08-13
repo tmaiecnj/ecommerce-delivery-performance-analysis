@@ -47,7 +47,7 @@ Seven data quality checks were performed during import and profiling, each analy
 6.
 7.
 
-Documented in: [Data Profiling](./DATA_PROFILING.md)
+_Documented in: [Data Profiling](./DATA_PROFILING.md)_
 
 ## Business Questions Answered
 
