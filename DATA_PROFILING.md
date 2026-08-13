@@ -1,4 +1,4 @@
-# Data Preparation
+# Data Profiling
 
 The Olist dataset were loaded into PostgreSQL and checked for data quality issues before analysis.
 
